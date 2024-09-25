@@ -1,0 +1,162 @@
+html,
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+body {
+    background: radial-gradient(circle, rgb(57, 51, 59) 0%, rgb(5, 5, 5) 100%);
+    margin: 0;
+    height: 100vh;
+}
+
+.titulo {
+    margin-bottom: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: "JetBrains Mono";
+    color: white;
+    font-size: 40px;
+    height: 40px;
+}
+
+.fundo_calculadora {
+    background: rgba(0, 0, 0, 0.336);
+    height: 430px;
+    width: 267px;
+    border-radius: 35px;
+}
+
+#resultado {
+    height: 50px;
+    /* Altura do campo de entrada */
+    width: 230px;
+    /* Largura total do contêiner */
+    margin-bottom: 10px;
+    /* Espaço abaixo do campo de entrada */
+    border-radius: 20px;
+    border: none;
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.247);
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.primeira_linha {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(189, 73, 73);
+    border: none
+}
+
+#apagar {
+    width: 110px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #a5a5a58a;
+    border: none
+}
+
+.segunda_linha {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #07070769;
+    border: none
+}
+
+#alinhar_esquerda {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #07070769;
+    border: none
+}
+
+.terceira_linha {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #07070769;
+    border: none
+}
+
+.quarta_linha {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #07070769;
+    border: none
+}
+
+#zero {
+    width: 110px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #07070769;
+}
+
+#botao_resultado {
+    width: 110px;
+    height: 50px;
+    margin-left: 5px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ff9d0a9c;
+    border: none
+}
+
+.botao_acao {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ff9d0a9c;
+    border: none
+}
